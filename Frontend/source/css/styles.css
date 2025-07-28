@@ -12,7 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 /* Header section */
-.header {
+header {
     position: fixed;
     width: 100%;
     display: flex;
@@ -20,6 +20,7 @@ body {
     padding: 8px;
     margin: 8px 0;
     box-shadow: 6px 2px 3px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 
 .header-logo {
@@ -66,4 +67,16 @@ body {
 
 .nav-list-item:hover::after {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    margin-top: 116px;
+    /* min-height: 1200px; */
+    z-index: -1;
+}
+
+.product {
+    height: 2400px;
 }
