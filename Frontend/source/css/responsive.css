@@ -14,10 +14,22 @@
     .nav-list {
         display: flex;
         flex-direction: column;
+        gap: 12px;
+        padding: 12px;
     }
 
     .nav-list-item {
         width: 100%;
         text-align: center;
-    } 
+    }
+    
+    .product-item {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .product-item img {
+        width: 150px;
+        height: 150px;
+    }
 }

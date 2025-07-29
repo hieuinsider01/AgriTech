@@ -70,14 +70,14 @@ header {
     color: #f5f5f5;
 }
 
-.nav-list-item:hover::after {
-    background-color: rgba(0, 0, 0, 0.2);
+.nav-list-item:hover{
+    background-color: #1a664a;
 }
 
 main {
     position: absolute;
     width: 100%;
-    padding-top: 114px;
+    padding-top: calc(106px + 1rem);
     /* min-height: 1200px; */
 
 }
@@ -110,13 +110,15 @@ main {
     align-items: center;
     gap: 12px;
     padding: auto;
-    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .product-item img {
     width: 200px;
     height: 200px;
     border-radius: 8px;
+}
+
+.product-item, .product-item img {
     box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2));
 }
 
