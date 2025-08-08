@@ -44,4 +44,15 @@
         width: 150px;
         height: 150px;
     }
+    
+    /* Footer responsive */
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
 }
