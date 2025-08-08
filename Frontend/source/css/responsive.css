@@ -4,6 +4,14 @@
         flex-direction: column;
     }
 
+    .product {
+        width: 100%;
+        height: auto;
+    }
+    .product-item {
+        width: 100%;
+        max-width: 320px;
+    }
     .product-list {
         display: flex;
         flex-wrap: wrap;
@@ -23,6 +31,10 @@
         text-align: center;
     }
     
+    .product {
+        width: 100%;
+    }
+
     .product-item {
         width: 100%;
         max-width: 280px;
